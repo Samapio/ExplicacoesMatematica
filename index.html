@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explicações de Matemática</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7fb;
+      color: #1c2b4a;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 40px;
+      background: white;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #1c2b4a;
+      font-weight: 500;
+    }
+
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 60px 40px;
+      background: linear-gradient(to bottom, #ffffff, #eef2f8);
+    }
+
+    .hero-text {
+      max-width: 50%;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin: 10px 0;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      background: #2d5cff;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .hero-img {
+      font-size: 120px;
+      color: #2d5cff;
+    }
+
+    .section {
+      padding: 60px 40px;
+      text-align: center;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 40px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      width: 30%;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    }
+
+    .footer {
+      background: #1c2b4a;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    @media(max-width: 768px) {
+      .hero {
+        flex-direction: column;
+      }
+
+      .hero-text {
+        max-width: 100%;
+      }
+
+      .cards {
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .card {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div><strong>Explicações de Matemática</strong></div>
+  <nav>
+    <a href="#">Início</a>
+    <a href="#">Sobre</a>
+    <a href="#">Serviços</a>
+    <a href="#">Contacto</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h3>Aprender hoje, compreender sempre</h3>
+    <h1>Explicações de Matemática</h1>
+    <p>Até ao 9º ano. Aulas online ou presenciais com acompanhamento personalizado.</p>
+    <a href="#" class="btn">Entrar em contacto</a>
+  </div>
+  <div class="hero-img">√x</div>
+</section>
+
+<section class="section">
+  <h2>Como posso ajudar-te?</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Online</h3>
+      <p>Aulas por videochamada no conforto da tua casa.</p>
+    </div>
+    <div class="card">
+      <h3>Presencial</h3>
+      <p>Ambiente tranquilo e focado na aprendizagem.</p>
+    </div>
+    <div class="card">
+      <h3>Focado em ti</h3>
+      <p>Métodos adaptados ao teu ritmo.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="cards">
+    <div class="card">
+      <h3>Sobre mim</h3>
+      <p>Sou o Pedro e ajudo alunos a superar dificuldades e alcançar objetivos.</p>
+    </div>
+    <div class="card">
+      <h3>Contacto</h3>
+      <p>Email: explicacoesmatematicapedro@gmail.com</p>
+      <p>Número: 938061176</p>
+    </div>
+  </div>
+</section>
+
+<div class="footer">
+  <p>"A matemática não é sobre números, é sobre compreender."</p>
+  <p>© 2026 Explicações de Matemática</p>
+</div>
+
+</body>
+</html>
